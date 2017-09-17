@@ -1,0 +1,11 @@
+{
+	"id": "sys_statistics",
+	"version": "1.0",
+	"description": "System Statistics",
+	"categories": [
+		"info",
+		"admin",
+		"statistics"
+	],
+	"compatible_from": "2017.4"
+}
