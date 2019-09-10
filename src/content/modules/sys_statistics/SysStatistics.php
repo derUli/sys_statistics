@@ -53,7 +53,7 @@ class SysStatistics extends Controller {
 		$manager = new ModuleManager ();
 		$countByType ["enabled_modules"] = count ( $manager->getEnabledModuleNames () );
 		$countByType ["disabled_modules"] = count ( $manager->getDisabledModuleNames () );
-		$countByType ["installed_designs"] = count ( getThemeList () );
+		$countByType ["installed_designs"] = count ( getAllThemes () );
 		
 		Viewbag::set ( "count_by_type", $countByType );
 		
